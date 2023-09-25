@@ -32,3 +32,17 @@ For my trainer, I categorize the code to three kinds to ensure strict and clear 
 - Basic code: code about the structure. Provide fundimental code for easy-to-use trainer.
 - Task-specific code: task-specific evaluations and metrics.
 - Method-specific code: losses, models.
+
+```python
+class BasePLmodule(pl.LightningModule):
+	# structure, general methods, properties
+	...
+class TaskPLmodule(BasePLmodule):
+	# evaluation and metrics
+	...
+class MethodPLmodule(TaskPLmodule):
+	# model structure and optimization
+	...
+
+method_task_plm = MethodPLmodule(cfg)
+```
