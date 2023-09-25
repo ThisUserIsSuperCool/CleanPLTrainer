@@ -11,7 +11,7 @@ For the previous version of Trainer, please see https://github.com/ThisUserIsSup
 ## Current Rules/Philosophy
 1. There should be one -- and preferably only one -- obvious way to do it.
 2. Always ensure clear boundaries among modules. Minimize their dependence.
-3. Files always stay at correct place. Easy to find them when you need them.
+3. Files/codes/modules always stay at correct place. Easy to find them when you need them.
 
 In details, to ensure greatest flexibility, we should give up some auto operations supported by lightning, currently for me they are:
 1. manually control backward() for loss, and step() for opt and sch.
