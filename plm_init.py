@@ -1,6 +1,11 @@
 # simple code to show how to utilize incorporate task_plm with method_plm
 
-class taskA:
+class base:
+    def __init__(self):
+        super().__init__()
+        print('init base')
+
+class taskA(base):
     def __init__(self):
         super().__init__()
         print('init A')
@@ -27,14 +32,20 @@ class methodB:
 def task_method_class(task,method, attr={}):
     """
     create a class with task and method as parent.
-
-    inheritance order: task -> method, i.e. task is the parent of method.
     """
-    parent = (task, method)
-    cls_name = '_'.join([p.name() for p in parent][::-1])
+    parent = (method, task)
+    cls_name = '_'.join([p.name() for p in parent])
+
+    name_attr = dict(name=lambda self: cls_name)
+    attr.update(name_attr)
+    
     return type(cls_name, parent, attr)
 
 obj = task_method_class(
     task=taskA,
     method=methodB,
 )() 
+
+print(obj.name())
+print(obj.__class__.__bases__)
+print(obj.__class__.__name__)
