@@ -46,3 +46,19 @@ class MethodPLmodule(TaskPLmodule):
 
 method_task_plm = MethodPLmodule(cfg)
 ```
+
+File Orgnization:
+```
+├── CleanPLTrainer.code-workspace
+├── core
+│   ├── hooks
+│   ├── PLBase
+│   │   ├── Base_plm.py
+│   │   ├── base_util.py
+│   │   └── todos.py
+│   └── module # research-related
+│   └── util # engineering-related
+├── proj
+│   ├── Method_plm.py
+│   └── Task_plm.py
+```
