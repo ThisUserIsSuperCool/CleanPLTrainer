@@ -36,18 +36,22 @@ def change_log_pth(cfg,new_pth):
 @hydra.main(**_HYDRA_PARAMS)
 def main(cfg: DictConfig) -> None:
     results = []
-    for trial in range(cfg.n_trials):
-        # change seed and output dir for each trial
-        cfg.seed = trial
-        cfg.output_dir = os.path.join(cfg.output_dir, f"param_set_{trial}")
+    for seed in range(cfg.seed_list):
+        cur_output_dir = os.path.join(cfg.base_dir, f"seed_{cfg.seedl}")
+        cfg.seed = seed
+        cfg.output_dir = cur_output_dir
+        change_log_pth(cfg,cur_output_dir) # change the log path for each trial
         
         result = single_run(cfg)
         results.append(result)
-    print(results)
-
+    
+    change_log_pth(cfg,cfg.base_dir) # change the log path back to the base dir for main process
     mean_result = np.mean(results)
-    print(f"Mean result: {mean_result}")
+    logger.info(f"Mean result: {mean_result}")
     return mean_result
+
+if __name__ == "__main__":
+    main()
 
 
 
