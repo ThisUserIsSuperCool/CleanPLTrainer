@@ -1,4 +1,12 @@
-# simple code to show how to incorporate task_plm with method_plm
+"""
+simple code to show how to incorporate task_plm with method_plm
+
+Aim:
+obj = task_method_class(
+    task=taskA,
+    method=methodB,
+)(param_to_pass)
+"""
 
 class base:
     def __init__(self):
