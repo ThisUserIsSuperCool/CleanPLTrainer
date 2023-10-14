@@ -40,6 +40,7 @@ def main(cfg: DictConfig) -> None:
         cur_output_dir = os.path.join(cfg.base_dir, f"seed_{cfg.seedl}")
         cfg.seed = seed
         cfg.output_dir = cur_output_dir
+        create_dir(cur_output_dir)
         change_log_pth(cfg,cur_output_dir) # change the log path for each trial
         
         result = single_run(cfg)
