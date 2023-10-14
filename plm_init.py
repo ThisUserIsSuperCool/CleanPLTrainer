@@ -1,4 +1,4 @@
-# simple code to show how to utilize incorporate task_plm with method_plm
+# simple code to show how to incorporate task_plm with method_plm
 
 class base:
     def __init__(self):
