@@ -1,5 +1,5 @@
 """
-simple code to show how to incorporate task_plm with method_plm
+Simple code to show how to incorporate task_plm with method_plm
 
 Aim:
 obj = task_method_class(
