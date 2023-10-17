@@ -46,7 +46,6 @@ class MethodPLmodule(TaskPLmodule):
 
 method_task_plm = MethodPLmodule(cfg)
 ```
-
 File Orgnization:
 ```
 ├── CleanPLTrainer.code-workspace
