@@ -12,7 +12,7 @@ Expected directory structure:
         - seed_0
         - seed_1
 
-This file cal
+This file calcu
 """
 def single_run(cfg):
     seed_everything(cfg.seed)
