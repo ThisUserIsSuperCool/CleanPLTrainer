@@ -46,7 +46,7 @@ class MethodPLmodule(TaskPLmodule):
 
 method_task_plm = MethodPLmodule(cfg)
 ```
-You are suggested to write a `TaskPLmodule` and a `TaskPLmodule` respective
+You are suggested to write a `TaskPLmodule` and a `TaskPLmodule` respectively
 
 See how to init a plm [here](https://github.com/ThisUserIsSuperCool/CleanPLTrainer/blob/main/plm_init.py).
 
