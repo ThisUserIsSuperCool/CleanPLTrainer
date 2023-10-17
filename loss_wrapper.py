@@ -24,7 +24,7 @@ class LossDataPackDict:
     )
     """
     def __init__(self,):
-        self.losses = DataPackDict(loss=0)
+        self.losses =dict(loss=0)
     # def update(self,loss_dict):
         # self.losses.update(loss_dict)
         # self.losses.loss += list(loss_dict.values())[0]
