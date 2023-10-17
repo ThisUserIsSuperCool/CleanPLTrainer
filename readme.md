@@ -48,7 +48,7 @@ method_task_plm = MethodPLmodule(cfg)
 ```
 You are suggested to write several `TaskPLmodule` and several `MethodPLmodule` respectively. Choose to run Method B for Task A:
 ```python
-ta = task_method_class(
+tAmB = task_method_class(
 			task=taskA,
 			method=methodB,
 		)(param_to_pass)
