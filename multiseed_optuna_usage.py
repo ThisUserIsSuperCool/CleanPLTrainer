@@ -13,7 +13,7 @@ Expected directory structure:
         - seed_1
 
 This file calculates the mean of the results, 
-and
+and retu
 """
 def single_run(cfg):
     seed_everything(cfg.seed)
