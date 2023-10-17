@@ -75,7 +75,6 @@ See how to init a plm [here](https://github.com/ThisUserIsSuperCool/CleanPLTrain
 ## Modules
 ### 1 LossDataPackDict
 ```python
-# Usage
 loss_data_pack = LossDataPackDict() # loss = 0
 loss_data_pack.update(loss_1 = loss_1) # loss += loss1
 loss_data_pack.update(loss_2 = loss_2) # loss += loss2
