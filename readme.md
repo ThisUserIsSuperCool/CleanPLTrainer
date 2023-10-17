@@ -49,9 +49,9 @@ method_task_plm = MethodPLmodule(cfg)
 You are suggested to write several `TaskPLmodule` and several `MethodPLmodule` respectively. Choose to run Method B for Task A:
 ```python
 obj = task_method_class(
-    	task=taskA,
-		method=methodB,
-	)(param_to_pass)
+			task=taskA,
+			method=methodB,
+		)(param_to_pass)
 ```
 
 See how to init a plm [here](https://github.com/ThisUserIsSuperCool/CleanPLTrainer/blob/main/plm_init.py).
