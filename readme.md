@@ -48,7 +48,7 @@ method_task_plm = MethodPLmodule(cfg)
 ```
 You are suggested to write 
 
-See how to init a plm](https://github.com/ThisUserIsSuperCool/CleanPLTrainer/blob/main/plm_init.py).
+See how to init a plm[](https://github.com/ThisUserIsSuperCool/CleanPLTrainer/blob/main/plm_init.py).
 
 File Orgnization:
 ```
