@@ -61,8 +61,7 @@ File Orgnization:
 │   ├── Method_plm.py
 │   └── Task_plm.py
 ```
-### Init a plm
-### plm = Methodplm + Taskplm
+### Init a plm plm = Methodplm + Taskplm
 
 You are suggested to write several `TaskPLmodule` and several `MethodPLmodule` respectively. Choose to run Method B for Task A:
 ```python
