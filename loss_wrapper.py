@@ -21,7 +21,6 @@ class LossDataPackDict:
         loss_1 = loss_1,
         loss_2 = loss_2,
         loss = loss,
-        
     )
     """
     def __init__(self,):
