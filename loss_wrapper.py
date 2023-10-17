@@ -27,7 +27,8 @@ class LossDataPackDict:
     loss_data_pack = LossDataPackDict()
     loss_data_pack.update(loss_1 = loss_1)
     loss_data_pack.update(loss_2 = loss_2)
-    
+
+    loss = 
     """
     def __init__(self,):
         self.losses =dict(loss=0)
