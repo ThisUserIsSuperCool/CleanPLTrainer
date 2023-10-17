@@ -1,4 +1,4 @@
-# [Doc]CleanPLTrainer 
+# [Doc] CleanPLTrainer 
 
 I am currently exploring a decent lightning trainer. The aim is to develop a powerful tool to aid my research: writing the least code with maximum flexibility. 
 
