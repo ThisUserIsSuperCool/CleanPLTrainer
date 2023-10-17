@@ -10,7 +10,7 @@ This repo contains **pytorch-like pseudo codes ONLY**, only for better conveying
 
 For the previous version of Trainer, please see https://github.com/ThisUserIsSuperCool/dist_optuna_plus_wandb.
 
-The repo
+The repo is based on 
 
 ## Current Rules/Philosophy
 1. There should be one -- and preferably only one -- obvious way to do it.
