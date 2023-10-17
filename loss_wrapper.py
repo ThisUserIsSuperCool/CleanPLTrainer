@@ -25,6 +25,7 @@ class LossDataPackDict:
     ----------------------------------------------------
     Usage:
     loss_data_pack = LossDataPackDict()
+    loss_data_pack.update(loss_1 = loss_1)
     
     """
     def __init__(self,):
