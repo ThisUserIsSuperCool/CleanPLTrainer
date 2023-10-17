@@ -46,7 +46,7 @@ class MethodPLmodule(TaskPLmodule):
 
 method_task_plm = MethodPLmodule(cfg)
 ```
-You are suggested
+You are suggested to write 
 
 File Orgnization:
 ```
