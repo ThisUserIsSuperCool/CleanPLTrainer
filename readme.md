@@ -86,6 +86,6 @@ loss.backward()
 # loss1 = loss_data_pack.loss_dict['loss1']
 # loss2 = loss_data_pack.loss_dict['loss2']
 ```
-The losses you saved to `LossDataPackDict` will be automatically logged to li
+The losses you saved to `LossDataPackDict` will be automatically logged to lightning
 
 See [source code](https://github.com/ThisUserIsSuperCool/CleanPLTrainer/blob/main/loss_wrapper.py).
