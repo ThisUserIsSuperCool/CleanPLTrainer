@@ -2,7 +2,7 @@
 
 I am currently exploring a decent lightning trainer. The aim is to develop a powerful tool to aid my research: writing the least code with maximum flexibility. 
 
-Currently I am thinking and sharing about the rules and philosophy of the design of my own trainer. Based on the rules, I will explore how to use the powerful tools provided by lightning properly (I mean to avoid chaos).
+I am thinking and sharing about the rules and philosophy of the design of my own trainer. Based on the rules, I will explore how to use the powerful tools provided by lightning properly (I mean to avoid chaos).
 
 **Note:** This repo contains pytorch-like pseudo codes, only for better conveying the art of design. The completed template will be released after I test the system on a completed project first.
 
