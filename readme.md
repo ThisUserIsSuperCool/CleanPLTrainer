@@ -45,8 +45,8 @@ class MethodPLmodule(TaskPLmodule):
 	...
 
 method_task_plm = MethodPLmodule(cfg)
-
 ```
+
 You are suggested to write several `TaskPLmodule` and several `MethodPLmodule` respectively. Choose to run Method B for Task A:
 ```python
 tA_mB_obj = task_method_class(
