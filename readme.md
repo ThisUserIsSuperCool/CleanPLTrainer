@@ -48,6 +48,8 @@ method_task_plm = MethodPLmodule(cfg)
 ```
 You are suggested to write 
 
+see https://github.com/ThisUserIsSuperCool/CleanPLTrainer/blob/main/plm_init.py
+
 File Orgnization:
 ```
 ├── CleanPLTrainer.code-workspace
