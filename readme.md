@@ -6,7 +6,7 @@ Currently I am thinking and sharing about the rules and philosophy of the design
 
 **Note:** This repo contains pytorch-like pseudo codes, only for better conveying the art of design. The completed template will be released after I test the system on a completed project first.
 
-The repo is based on [pytorch-lightning](https://lightning.ai/), [hydra](https://hydra.cc/), [optuna](https://optuna.org/), and [wandb](https://wandb.ai/site). For the previous version of Trainer, please see https://github.com/ThisUserIsSuperCool/dist_optuna_plus_wandb.
+The repo is based on [pytorch-lightning](https://lightning.ai/), [hydra](https://hydra.cc/), [optuna](https://optuna.org/), and [wandb](https://wandb.ai/site). For my previous version of Trainer, please see https://github.com/ThisUserIsSuperCool/dist_optuna_plus_wandb.
 
 
 
