@@ -27,7 +27,6 @@ class LossDataPackDict:
         self.losses =dict(loss=0)
     def update(self,**loss):
         self.losses.update(loss)
-        # self.losses.loss += list(loss.values())[0]
         self.losses.loss += sum(loss.values())
     @property
     def loss_dict(self):
