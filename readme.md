@@ -81,5 +81,5 @@ loss_data_pack.update(loss_1 = loss_1) # loss += loss1
 loss_data_pack.update(loss_2 = loss_2) # loss += loss2
 
 loss = loss_data_pack.loss_dict['loss']
-loss1 = 
+loss1 = loss_data_pack.loss_dict['loss']
 ```
