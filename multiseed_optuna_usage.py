@@ -12,8 +12,7 @@ Expected directory structure:
         - seed_0
         - seed_1
 
-This file calculates the mean of the results for each param set.
-""
+This file calculates the mean of the results f
 """
 def single_run(cfg):
     seed_everything(cfg.seed)
