@@ -13,7 +13,7 @@ For the previous version of Trainer, please see https://github.com/ThisUserIsSup
 2. Always ensure clear boundaries among modules. Minimize their dependence.
 3. Files/codes/modules always stay at correct place. Easy to find them when you need them.
 
-In details, to ensure greatest flexibility, we should give up some auto operations supported by lightning, currently we suggest:
+In details, to ensure greatest flexibility, we should give up some auto operations supported by lightning, currently we suggest to:
 1. manually control backward() for loss, and step() for opt and sch.
 2. manually control computation of metrics if torchmetrics is used. That is to say, pass values to self.log(), rather than the whole object. In addition, spend a few more seconds to think about if there is any reset operation needed.
 
