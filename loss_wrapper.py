@@ -29,7 +29,7 @@ class LossDataPackDict:
     loss_data_pack.update(loss_2 = loss_2)
 
     loss = loss_data_pack.loss_dict['loss']
-    
+    loss
     """
     def __init__(self,):
         self.losses =dict(loss=0)
