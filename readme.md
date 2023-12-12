@@ -1,4 +1,4 @@
-# [Doc] CleanPLTrainer 
+# CleanPLTrainer 
 
 I am currently exploring a decent lightning trainer. The aim is to develop a powerful tool to aid my research: writing the least code with maximum flexibility. 
 
@@ -70,7 +70,7 @@ tA_mB_obj = task_method_class(
 			method=methodB,
 		)(param_to_pass)
 ```
-Specifically, see how to init a plm [here](https://github.com/ThisUserIsSuperCool/CleanPLTrainer/blob/main/plm_init.py).
+
 ## Modules
 ### 1 LossDataPackDict
 Use `LossDataPackDict` to store your losses.
@@ -86,4 +86,4 @@ loss.backward()
 # loss1 = loss_data_pack.loss_dict['loss1']
 # loss2 = loss_data_pack.loss_dict['loss2']
 ```
-The losses you saved to `LossDataPackDict` will be automatically logged to pytorch-lightning loggers. See [source code](https://github.com/ThisUserIsSuperCool/CleanPLTrainer/blob/main/loss_wrapper.py).
+The losses you saved to `LossDataPackDict` will be automatically logged to pytorch-lightning loggers.
