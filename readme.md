@@ -8,7 +8,7 @@ I am thinking and sharing about the rules and philosophy of the design of my own
 
 The repo is based on [pytorch-lightning](https://lightning.ai/), [hydra](https://hydra.cc/), [optuna](https://optuna.org/), and [wandb](https://wandb.ai/site). For my previous version of Trainer, please see https://github.com/ThisUserIsSuperCool/dist_optuna_plus_wandb.
 
-## Current Rules/Philosophy
+## Design Philosophy
 1. There should be one -- and preferably only one -- obvious way to do it.
 2. Always ensure clear boundaries among modules. Minimize their dependence. Chaos is allowed only within boundries.
 3. Files/codes/modules always stay at correct place. Easy to find them when you need them.
