@@ -10,7 +10,7 @@ The repo is based on [pytorch-lightning](https://lightning.ai/), [hydra](https:/
 
 ## Current Rules/Philosophy
 1. There should be one -- and preferably only one -- obvious way to do it.
-2. Always ensure clear boundaries among modules. Minimize their dependence.
+2. Always ensure clear boundaries among modules. Minimize their dependence. Chaos is allowed only within boundries.
 3. Files/codes/modules always stay at correct place. Easy to find them when you need them.
 
 In details, to ensure greatest flexibility, we should give up some auto operations supported by lightning, currently we suggest to:
