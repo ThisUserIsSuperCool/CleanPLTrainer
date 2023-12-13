@@ -62,6 +62,14 @@ The losses you saved to `LossDataPackDict` will be automatically logged to pytor
 
 ## 2 Sweep
 We consider the following Three sweeping senoarios:
-1. run a trial several times with different seed.
+1. run a trial several times with different seeds.
 2. perform grid search over several hyper-params manually.
 3. perform auto hyper-params search using advanced tools like Optuna.
+
+### 2.1 multirun decorator
+```python
+@multirun # decorate your singlerun function to run it several times with different seeds
+def singlerun(cfg):
+	...
+	return res
+```
