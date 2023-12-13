@@ -1,4 +1,4 @@
-**My Trainer**:
+# My Trainer
 
 For my trainer, I categorize the code to three kinds to ensure strict and clear hierachy:
 - Basic code: code about the structure. Provide fundimental code for easy-to-use trainer.
@@ -43,7 +43,7 @@ tA_mB_obj = task_method_class(
 		)(param_to_pass)
 ```
 
-## Modules
+## 1 Modules
 ### 1 LossDataPackDict
 Use `LossDataPackDict` to store your losses.
 ```python
@@ -59,3 +59,9 @@ loss.backward()
 # loss2 = loss_data_pack.loss_dict['loss2']
 ```
 The losses you saved to `LossDataPackDict` will be automatically logged to pytorch-lightning loggers.
+
+## 2 Sweep
+We consider the following Three sweeping senoarios:
+1. run a trial several times with different seed.
+2. perform grid search over several hyper-params manually.
+3. perform auto hyper-params search using advanced tools like Optuna.
