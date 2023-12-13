@@ -35,7 +35,7 @@ File Orgnization:
 ```
 ### Init a plm: plm = Methodplm + Taskplm
 
-You are suggested to write several `TaskPLmodule` and several `MethodPLmodule`. Thus, say you want to choose to run Method B for Task A, you could:
+You are suggested to write several `TaskPLmodule` and several `MethodPLmodule` for different tasks and methods. Thus, say you want to choose to run Method B for Task A, you could:
 ```python
 tA_mB_obj = task_method_class(
 			task=taskA,
