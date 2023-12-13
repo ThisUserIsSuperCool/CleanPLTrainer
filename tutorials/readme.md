@@ -1,4 +1,4 @@
-# My Trainer
+# Doc
 
 For my trainer, I categorize the code to three kinds to ensure strict and clear hierachy:
 - Basic code: code about the structure. Provide fundimental code for easy-to-use trainer.
